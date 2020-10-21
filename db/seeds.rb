@@ -1,0 +1,5 @@
+u1 = User.create(name: 'bob', nickname: 'bobby')
+b1= Bay.create("top",30)
+g1= Game.create("turbo","very fast","g wedge")
+t1 = Timeslot.create("today")
+c1 = Confirmation.create(u1,b1,g1,t1)
